@@ -1,0 +1,171 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+
+}
+
+body {
+	font-family: tahoma;
+}
+
+.showcase{
+	position: absolute;	
+	width: 600px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/** Header image **/
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('../img/showcase.jpg');
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+
+}
+
+.main-nav {
+	list-style: none;
+	float: right;	
+	margin-top: 50px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.main-nav li a {
+	color: white;
+	text-decoration: none;	
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.main-nav li a:hover {
+	color: #762827;
+	border-bottom: 2px solid #762827;
+	transition: all 0.5s ease-in;
+	padding: 15px 0;
+}
+
+/** Brand text **/
+.brand {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 30px;	
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+	border-radius: 15px 50px 30px 5px;
+}
+
+.showcase p {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-top: 30px;
+}
+
+#highlight {
+	border:1px solid #762827;
+	padding: 5px 25px;
+	background-color: #762827;
+	color: white;
+	text-decoration: none;
+	border-radius: 12px;
+}
+
+
+}
+
+.description {
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 15px;
+}
+
+h3:after {
+	width: 100px;
+	height: 2px;
+	background-color: #762827;
+	display: block;
+	content: "";
+	margin: 0 auto;
+	margin-top: 30px;
+
+}
+
+.features i {
+	font-size: 30px;
+	color: #762827;
+	margin-left: 25%;	
+}
+
+.features h3 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.features h4 {
+margin-left: 40px;
+}
+
+.description {
+	width: 70%;
+	margin-left: 15%;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.display {
+	background-color: #e5e5e5;
+	margin-top: 60px;
+
+}
+
+.display p {
+	margin-top: 60px;
+	
+}
+
+.gallery {
+	margin-top: 60px;
+}
+
+.thumbnail img:hover {
+	transform: scale(1.05);
+	transition: all 0.5s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
